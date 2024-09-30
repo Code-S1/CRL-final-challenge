@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --cream-text: #b48759;
+    --darkest-grey: #3E2723;
+    --darker-grey: #4b3934;
+    --dark-grey: #8D6E63;
+}
+
+nav {
+    background-color: var(--darkest-grey);
+}
+
+.nav_support {
+    overflow: hidden;
+    background-color: var(--darkest-grey);
+}
+
+.menu-icon {
+    background-color: var(--darkest-grey);
+    border: none;
+    display: flex;
+    justify-content: end;
+}
+
+.margin_contact {
+    margin-top: 1rem;
+}
+
+.menu-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
+.nav_support {
+    display: flex;
+    list-style: none;
+    row-gap: 2rem;
+    flex-direction: column;
+    font-size: large;
+    align-items: center;
+    transition: .5s;
+}
+
+.nav_support a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_support a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.nav_flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.login_nav_button {
+    border-radius: 1.5rem;
+    padding: .5rem 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    background-color: var(--cream-text);
+}
+
+.section_1 {
+    background-color: var(--darker-grey);
+
+    display: flex;
+    justify-content: center;
+}
+
+.responsive_text {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    width: 95%;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boldness {
+    color: var(--cream-text);
+}
+
+.short_text {
+    color: white;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 1.4rem;
+    padding: 4rem 1rem 3rem 1rem;
+    font-size: 18px;
+}
+
+.want_button {
+    padding: .7em 2em;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 800;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: var(--cream-text);
+    margin-bottom: 2rem;
+}
+
+.want_button:hover,
+.login_nav_button:hover {
+    background-color: white;
+    color: var(--cream-text);
+    transition: 200ms;
+}
+
+.section_2 {
+    background-color: rgba(182, 182, 182, 0.308);
+}
+
+.boxes {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.boxes h3 {
+    color: var(--cream-text);
+    padding-bottom: .8rem;
+    font-size: x-large;
+}
+
+.section_3 {
+    padding: 3rem 1rem;
+    margin: 0 auto;
+}
+
+.art_image {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.main_with_image h1 {
+    color: var(--cream-text);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+}
+
+.main_with_image p {
+    text-align: center;
+    font-size: larger;
+}
+
+.side_boxes {
+    margin-top: 1.5rem;
+    border: 1px solid;
+    color: white;
+}
+
+.boxes_main {
+    margin: 1rem 0;
+    text-align: center;
+    background-color: var(--darker-grey);
+    padding: 2rem 1rem;
+}
+
+.boxes_main h2 {
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--darker-grey);
+
+}
+
+.scratching_text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_company h3 {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--cream-text);
+    font-size: x-large;
+    font-family: "Oswald", sans-serif;
+}
+
+.about_company p {
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+    margin: 0 auto;
+
+}
+
+.bottom_contact {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.contact2 h3 {
+    font-family: "Oswald", sans-serif;
+    color: var(--cream-text);
+    margin-top: 4rem;
+}
+
+.contact2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact2 a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.display_none {
+    display: none;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .main_content {
+        display: flex;
+        flex-direction: row;
+        padding: 3rem 2rem;
+        align-items: flex-end;
+    }
+
+    .menu-icon {
+        display: none;
+        border: none;
+    }
+
+    .nav_support {
+        overflow: visible;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .margin_contact {
+        margin: unset;
+    }
+
+    .nav_bar {
+        align-items: center;
+    }
+
+    .responsive_text {
+        font-size: 3rem;
+        margin-right: 1.5rem;
+    }
+
+    .short_text {
+        padding: 1rem 0;
+        font-size: medium;
+        text-align: left;
+    }
+
+    .want_button {
+        margin: unset;
+        font-size: medium;
+    }
+
+    .right_main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-start;
+
+    }
+
+    .main_section_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .boxes {
+        width: 100%;
+        padding: 2rem .5rem;
+    }
+
+    .boxes h3 {
+        font-size: x-large;
+    }
+
+    .boxes p {
+        font-size: 15px;
+    }
+
+    .main_with_image h1,
+    .main_with_image p {
+        text-align: left;
+    }
+
+    .art_image {
+        height: 400px;
+        object-fit: cover;
+        margin: 1rem 0;
+    }
+
+    .boxes_main {
+        max-width: 45.25rem;
+        margin: 2rem auto;
+    }
+
+    .boxes_main p {
+        font-size: large;
+    }
+
+    .display_none {
+        display: flex;
+    }
+
+    .about_company h3 {
+        font-size: 3rem;
+    }
+
+    .scratching_text {
+        font-size: 4rem;
+    }
+
+    .about_company p {
+        font-size: large;
+        max-width: 47rem;
+    }
+
+    .bottom_contact {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main_content {
+        margin: 0 auto;
+        max-width: 75rem;
+    }
+
+    .responsive_text {
+        font-size: 4rem;
+    }
+
+    .short_text {
+        font-size: larger;
+        padding: 2rem 1rem;
+    }
+
+    .want_button {
+        font-size: x-large;
+        margin-left: 1rem;
+    }
+
+    .main_section_2 {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    .boxes {
+        padding: 2rem;
+    }
+
+    .boxes h3 {
+        font-size: 2rem;
+    }
+
+    .boxes p {
+        font-size: 1.1rem;
+    }
+
+    .section_3 {
+        max-width: 75rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_with_image {
+        width: 60%;
+    }
+
+    .side_boxes {
+        border: 1px solid;
+        color: white;
+        width: 30%;
+        margin-top: unset;
+    }
+
+    .boxes_main {
+        padding: 2rem 1.5rem;
+        margin: unset;
+    }
+
+    .boxes_main:not(:first-child) {
+        margin-top: 2rem;
+        /* or any value you prefer */
+    }
+
+    .footer_main {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about_company h3,
+    .about_company p {
+        text-align: left;
+    }
+
+    .scratching_text {
+        font-size: 5rem;
+    }
+
+    .about_company h3 {
+        font-size: 3rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .about_company p {
+        max-width: 43.75rem;
+    }
+
+    .bottom_contact {
+        width: 65%;
+    }
+
+    .contact2 h3 {
+        font-size: 2rem;
+    }
+}
