@@ -277,7 +277,7 @@ footer {
 
 .contact2 a:hover {
     text-decoration: underline;
-    transition: 200ms;
+    transition: 300ms ease-in-out;
 }
 
 .display_none {
